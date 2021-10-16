@@ -10,5 +10,5 @@
 }
 
 .esconde{
-    display: none;
+    visibility: hidden;
 }
