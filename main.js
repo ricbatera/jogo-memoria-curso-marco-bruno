@@ -9,7 +9,7 @@ const $root = document.querySelector('#root');
 
 $root.insertAdjacentHTML('beforeend',`
     ${ScoreBoard()}
-    ${ BoardGame(8)}
+    ${ BoardGame(2)}
 `);
 
 const $cards = document.querySelectorAll('.card');

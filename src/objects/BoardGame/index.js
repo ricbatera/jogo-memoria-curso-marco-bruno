@@ -1,7 +1,10 @@
 import "./styles.css"
-import CardGame from "../../components/CardGame";
+import CardFrontBack from "../../components/CardFrontBack";
 
-function BoardGame(qtde) {    
-    return `<section class="board-game"> ${CardGame().repeat(qtde)}</section>`;
+function BoardGame(qtde) {
+    return /*html*/`
+    <section class="board-game">
+        ${CardFrontBack().repeat(qtde)}
+     </section>`;
 }
 export default BoardGame;
