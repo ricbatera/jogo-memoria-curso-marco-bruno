@@ -1,0 +1,8 @@
+.posicao-player1{
+    position: relative;
+    left: 108px;
+    transition: 1s ease-in-out;
+}
+.posicao-player1.-posicao-player2{
+    transform: translateX(83px);
+}
