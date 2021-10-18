@@ -1,0 +1,36 @@
+.modal{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-alura);
+    display: none;
+}
+
+.conteudo{
+    font-size: 2em;
+    color: var(--color-floral-white);
+    background-color: #000;
+    width: 80%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo span:nth-child(2){
+    margin-top: 20px;
+    width: 60px;
+    text-align: center;
+    background-color: var(--color-flery-rose);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.mostra{
+    display: flex;
+}

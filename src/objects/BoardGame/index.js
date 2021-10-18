@@ -1,10 +1,13 @@
 import "./styles.css"
-import CardFrontBack from "../../components/CardFrontBack";
+import MisturadorCartas from "../../services/misturadorCartas";
+import CriaCartoes from "../../services/criaCartoes";
 
 function BoardGame(qtde) {
+    const images = ['logo-css', 'logo-javascript', 'logo-html']
+    let arr = MisturadorCartas(qtde, images);
     return /*html*/`
     <section class="board-game">
-        ${CardFrontBack().repeat(qtde)}
+    ${CriaCartoes(qtde, arr, images)}
      </section>`;
 }
 export default BoardGame;
